@@ -1,0 +1,314 @@
+
+*{
+          margin: 0%;
+          padding: 0%;
+          box-sizing: border-box;
+      }
+      #sec1{
+          background-image: url(./sec1.jpg);
+          height: 670px;
+          width: 100%;
+          /* border: 2px solid; */
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      Nav{
+          /* border: 2px solid; */
+          height: 153px;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+      }
+      nav div{
+          /* border: 2px solid red; */
+          width: 45%;
+          height: 150px;
+          /* display: flex; */
+          /* justify-content: space-between; */
+      }
+      nav img{
+          height: 120px;
+          width: 110px;
+          padding-top: 4%;
+          padding-left: 2%;
+      }
+      nav ol{
+          /* border: 2px solid; */
+          display: flex;
+          list-style: none;
+          gap: 6%;
+          padding-top: 12%;
+      }
+      nav li{
+          font-size: 11px;
+          font-weight: 600;
+          font-family: proxima-nova;
+          letter-spacing: 2px;
+      }
+      nav li:hover{
+          color:  #b4b1b1;
+          cursor: pointer;
+      }
+      nav #d1{
+          color:  #b4b1b1;
+      }
+      #sec1 aside{
+          /* border: 2px solid; */
+          height: 300px;
+          width: 700px;
+         position: absolute;
+         top: 40%;
+         left: 6%;
+      }
+      #sec1 h1{
+          /* border: 2px solid; */
+          height: 70px;
+          text-transform: uppercase;
+          font-size: 40px;
+          font-weight: 200;
+          letter-spacing: 2px;
+          padding-top:1%;
+          background-color: rgba(255, 255, 255,.6);
+          color: black;
+          text-align: center;
+      }
+      #sec1 p{
+          /* border: 2px solid; */
+          height: 80px;
+          font-size: 18px;
+          font-weight: 200;
+          letter-spacing: 1px;
+          padding-top:1%;
+          background-color: rgba(255, 255, 255,.8);
+          color: black;
+          padding-left: 2.3%;
+          padding-right: 1%;
+          line-height: 1.5;
+      }
+      #sec2{
+          background-image: url(./sec2.jpg);
+          height: 1000px;
+          width: 100%;
+          /* border: 2px solid; */
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      #sec2 section{
+          /* border: 2px solid orchid; */
+          height: 400px;
+          background-color: white;
+          display: flex;
+          align-items: center;
+      }
+      #sec2 aside{
+          /* border: 2px solid red; */
+          padding-left: 15%;
+          padding-right: 13%;
+      }
+      #sec2 h1{
+          font-size: x-large;
+          text-transform: uppercase;
+          font-weight: 550;
+      }
+      #sec2 p{
+          line-height: 1.5;
+          font-size: 16px;
+          font-family: proxima-nova;
+      }
+      #sec2 h2{
+          /* border: 2px solid;  */
+          position: absolute;
+          left: 5%;
+          width:60% ;
+          height: 120px;
+          text-transform: uppercase;
+          font-size: 40px;
+          font-weight: 200;
+          letter-spacing: 3px;
+          padding-top:1%;
+          background-color: rgba(255, 255, 255,.6);
+          color: black;
+          padding-left: 2%;
+      }
+      #sec3{
+          background-image: url(./sec3.jpg);
+          height: 1050px;
+          width: 100%;
+          /* border: 2px solid; */
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      #sec3 section{
+          /* border: 2px solid orchid; */
+          height: 450px;
+          background-color: white;
+          display: flex;
+          align-items: center;
+      }
+      #sec3 aside{
+          /* border: 2px solid red; */
+          padding-left: 12%;
+          padding-right: 12%;
+      }
+      #sec3 h1{
+          font-size: x-large;
+          text-transform: uppercase;
+          font-weight: 550;
+      }
+      #sec3 p{
+          line-height: 1.5;
+          font-size: 16px;
+          font-family: proxima-nova;
+      }
+       #sec3 h2{
+          /* border: 2px solid;  */
+          position: absolute;
+          left: 5%;
+          width:22% ;
+          height: 80px;
+          text-transform: uppercase;
+          font-size: 40px;
+          font-weight: 100;
+          letter-spacing: 4px;
+          padding-top:1%;
+          background-color: rgba(255, 255, 255,.6);
+          color: black;
+          padding-left: 2.2%;
+      }
+      
+      #sec4{
+          background-image: url(./sec4.jpeg);
+          height: 1000px;
+          width: 100%;
+          /* border: 2px solid; */
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      #sec4 section{
+          /* border: 2px solid orchid; */
+          height: 400px;
+          background-color: white;
+          display: flex;
+          align-items: center;
+      }
+      #sec4 aside{
+          /* border: 2px solid red; */
+          height: 200px;
+          padding-left: 11%;
+          padding-right: 13%;
+      }
+      #sec4 h1{
+          font-size: 21px;
+          text-transform: uppercase;
+          font-weight: 550;
+      }
+      #sec4 p{
+          line-height: 1.5;
+          font-size: 16px;
+          font-family: proxima-nova;
+      }
+       #sec4 h2{
+          /* border: 2px solid;  */
+          position: absolute;
+          left: 6.3%;
+          width:30% ;
+          height: 80px;
+          text-transform: uppercase;
+          font-size: 38px;
+          font-weight: 100;
+          letter-spacing: 4px;
+          padding-top:1%;
+          background-color: rgba(255, 255, 255,.6);
+          color: black;
+          padding-left: 2.2%;
+      }
+      
+      #sec5{
+          background-image: url(./sec5.jpg);
+          height: 1100px;
+          width: 100%;
+          /* border: 2px solid; */
+          background-size: 100%;
+          background-position: center;
+          background-attachment: fixed;
+      }
+      #sec5 section{
+          /* border: 2px solid orchid; */
+          height: 500px;
+          background-color: white;
+          display: flex;
+          align-items: center;
+      }
+      #sec5 aside{
+          /* border: 2px solid red; */
+          padding-left: 11%;
+          padding-right: 8%;
+      }
+      #sec5 h3{
+          font-size: large;
+          text-transform: uppercase;
+          font-weight: 550;
+      }
+      #sec5 p{
+          line-height: 1.5;
+          font-size: 16px;
+          font-family: proxima-nova;
+      }
+       #sec5 h2{
+          /* border: 2px solid;  */
+          position: absolute;
+          left: 6%;
+          width:19% ;
+          height: 80px;
+          text-transform: uppercase;
+          font-size: 38px;
+          font-weight: 100;
+          letter-spacing: 4px;
+          padding-top:1%;
+          background-color: rgba(255, 255, 255,.6);
+          color: black;
+          padding-left: 1.5%;
+      }
+      #sec6{
+          /* border: 2px solid; */
+          height: 1000px;
+          display: flex;
+          justify-content: center;
+          padding-left: 2.4%;
+      }
+      table img{
+          height: 200px;
+          width: 295px;
+          text-align: center;
+      }
+      #sec7{
+          /* border: 2px solid; */
+          height: 230px;
+      }
+      #sec7 section{
+          /* border: 2px solid; */
+          height: 150px;
+          background-color: black;
+          color: white;
+      }
+      #sec7 ol{
+          display: flex;
+          justify-content: space-evenly;
+          list-style: none;
+          padding: 7%;
+      }
+      #sec7 ol i{
+          /* border: 2px solid; */
+          font-size: 18px;
+          height: 28px;
+          width: 28px;
+          border-radius: 50%;
+          text-align: center;
+          padding: 2.5px;
+          background-color: white;
+          color: black;
+      }
